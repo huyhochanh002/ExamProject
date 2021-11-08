@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="changpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changpass.Designer.cs">
+      <DependentUpon>changpass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
