@@ -11,10 +11,17 @@ using System.Windows.Forms;
 namespace Project_Designform
 {
     public partial class Form1 : Form
-    {
+    { /// <summary>
+    /// co cai smary o day
+    /// </summary>
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
